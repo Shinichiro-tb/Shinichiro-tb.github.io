@@ -1,0 +1,48 @@
+body{
+    background-color:#513743;
+}
+.header-list{
+    padding: 1.125% 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .header-list > *{
+    min-width: 8%;
+    flex-basis: 25%;
+    background: #fff;
+    font-size: 120%;
+    text-align: center;
+  }
+  .header-list,
+  .box{
+    color:white;
+    list-style: none;
+    background-color:#432f2f;
+    border-left:1px solid;
+}
+  .box a:link{
+    color:white;
+  }
+  .box a:visited{
+    color:white;
+  }
+  .box a:active{
+    color:blue;
+  }
+.header-logo{
+    float: left;
+    color:white;
+    font-size:300%;
+}
+.box:hover{
+  background-color:#5f414b;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+p{
+  text-align: center;
+  color: white;
+}
