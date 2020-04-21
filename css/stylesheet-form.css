@@ -38,11 +38,19 @@ body{
 .box:hover{
   background-color:#5f414b;
 }
+
+a:link{color:white;
+}
+a:visited{color:white
+}
+
 h1{
   text-align: center;
   color: white;
 }
 p{
   text-align: center;
+  font-size:150%;
   color: white;
 }
+
